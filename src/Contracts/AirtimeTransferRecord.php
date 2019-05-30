@@ -1,6 +1,6 @@
 <?php
 
-namespace LBHurtado\Common;
+namespace LBHurtado\Common\Contracts;
 
 interface AirtimeTransferRecord
 {
