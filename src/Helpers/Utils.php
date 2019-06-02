@@ -1,7 +1,5 @@
 <?php
 
-use Illuminate\Support\Facades\Validator;
-
 if (!function_exists('validate_mobile')) {
 
     function validate_mobile($input, $country = 'PH') {
