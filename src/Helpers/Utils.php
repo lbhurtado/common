@@ -1,6 +1,6 @@
 <?php
 
-use Validator;
+use Illuminate\Support\Facades\Validator;
 
 if (!function_exists('validate_mobile')) {
 
