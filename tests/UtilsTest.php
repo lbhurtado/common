@@ -15,4 +15,13 @@ class UtilsTest extends TestCase
 		$this->assertFalse(validate_mobile('023011987'));
 		$this->assertFalse(validate_mobile('3011987'));
 	} 
+
+	/** @test */
+	public function suffixate_filename_works()
+	{
+		$this->assertEquals('/www/htdocs/inc/lib.inc-001.php', suffixate_filename('/www/htdocs/inc/lib.inc.php', '001', '-'));
+		$this->assertEquals('/www/htdocs/inc/lib.inc002.php', suffixate_filename('/www/htdocs/inc/lib.inc.php', '002'));
+		$this->assertEquals('test-003.jpg', suffixate_filename('test.jpg', '003', '-'));
+		$this->assertEquals('test004.jpg', suffixate_filename('test.jpg', '004'));
+	}
 }
