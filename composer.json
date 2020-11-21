@@ -1,6 +1,6 @@
 {
     "name": "lbhurtado/common",
-    "description": "This is a utilities package for lbhurtado/{missive, sms, tactician, engagespark}.",
+    "description": "This is a utility package for lbhurtado/{missive, sms, tactician, engagespark}.",
     "keywords": [
         "lbhurtado",
         "common"

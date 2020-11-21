@@ -5,7 +5,7 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/lbhurtado/common.svg?style=flat-square)](https://scrutinizer-ci.com/g/lbhurtado/common)
 [![Total Downloads](https://img.shields.io/packagist/dt/lbhurtado/common.svg?style=flat-square)](https://packagist.org/packages/lbhurtado/common)
 
-This is a utilities package for lbhurtado/{missive, sms, tactician, engagespak}.
+This is a utility package for lbhurtado/{missive, sms, tactician, engagespark}.
 
 ## Installation
 
